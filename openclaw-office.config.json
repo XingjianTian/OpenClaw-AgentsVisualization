@@ -1,0 +1,68 @@
+{
+  "version": "0.1.0",
+  "gateway": {
+    "url": "ws://127.0.0.1:18789",
+    "connected": true
+  },
+  "agents": [
+    {
+      "id": "main",
+      "name": "司礼监",
+      "role": "Orchestrator",
+      "emoji": "🤖",
+      "color": "#ff006e"
+    },
+    {
+      "id": "bingbu",
+      "name": "兵部",
+      "role": "Agent",
+      "emoji": "⚔️",
+      "color": "#00f5ff"
+    },
+    {
+      "id": "gongbu",
+      "name": "工部",
+      "role": "Agent",
+      "emoji": "🔧",
+      "color": "#ffbe0b"
+    },
+    {
+      "id": "hubu",
+      "name": "户部",
+      "role": "Agent",
+      "emoji": "💰",
+      "color": "#39ff14"
+    },
+    {
+      "id": "libu",
+      "name": "礼部",
+      "role": "Agent",
+      "emoji": "📜",
+      "color": "#9d4edd"
+    },
+    {
+      "id": "libu2",
+      "name": "吏部",
+      "role": "Agent",
+      "emoji": "👥",
+      "color": "#ff9500"
+    },
+    {
+      "id": "xingbu",
+      "name": "刑部",
+      "role": "Agent",
+      "emoji": "⚖️",
+      "color": "#00d9a5"
+    }
+  ],
+  "style": {
+    "theme": "cyberpunk"
+  },
+  "telegram": {
+    "enabled": false
+  },
+  "deployment": {
+    "method": "launchd",
+    "port": 4200
+  }
+}

@@ -1,0 +1,4 @@
+let animationTimers = []
+
+// FIX: Use Map to store request for each runId (supports concurrent agents)
+const runRequestMap = new Map()
