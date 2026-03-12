@@ -1,5 +1,20 @@
 # OpenClaw Office Agent 架构说明
 
+## 工作原则（强制）
+
+### ⚠️ Git 操作禁令
+**没有用户明确指示，禁止执行以下操作：**
+- `git checkout` - 恢复或切换文件/分支
+- `git commit` - 提交更改
+- `git push` - 推送到远程仓库
+- `git reset` / `git revert` - 撤销更改
+
+**只有用户明确说"push"、"commit"或"恢复文件"时才可执行！**
+
+---
+
+## 关键概念区分
+
 ## 关键概念区分
 
 ### 1. 系统用户名 vs Agent 名称
