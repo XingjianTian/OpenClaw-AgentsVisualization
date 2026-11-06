@@ -1,5 +1,7 @@
 # 🏢 OpenClaw Office
 
+**English (primary)** · [简体中文](README.zh-CN.md)
+
 Your virtual AI office — visualize multi-agent workflows in real-time.
 
 ![OpenClaw Office Dashboard](public/sprites/office-complete.png)
